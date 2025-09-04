@@ -18,15 +18,15 @@ Second-Brain is a personal memory repository designed to store and organize impo
 ### Example Entry
 
 ```markdown
-### YouTube
+## YouTube
 
 - [How to Learn Markdown](https://youtube.com/example)
 
-### Tweet
+## Tweet
 
 - [@user: Great productivity tip!](https://twitter.com/example)
 
-### Document
+## Document
 
 - [Project Plan](docs/project-plan.pdf)
 ```
