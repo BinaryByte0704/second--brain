@@ -1,12 +1,5 @@
 import mongoose, { Document, Model } from "mongoose";
-
-export interface Icontent extends Document {
-  id: number;
-  type: "document" | "tweet" | "youtube" | "link";
-  link: string;
-  title: string;
-  tags: string[];
-}
+import type { Icontent } from "../interfaces/IContent.js";
 
 const contentSchema = new mongoose.Schema<Icontent>({
   id: { type: Number, required: true },
